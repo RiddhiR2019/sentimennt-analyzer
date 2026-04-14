@@ -137,3 +137,35 @@ pytest
 - **Testing**: pytest for backend unit tests
 - **Deployment**: Ready for containerization (Docker-ready structure)
 
+## Future Improvements
+
+We have identified several areas for enhancement to make the sentiment analyzer more robust and feature-rich:
+
+### 🤖 Advanced Models
+- Integrate transformer-based models (BERT, RoBERTa) for better context understanding
+- Add multi-label sentiment classification for mixed emotions
+- Implement ensemble methods beyond simple averaging
+
+### 🌍 Enhanced Capabilities
+- Add support for multilingual sentiment analysis
+- Implement aspect-based sentiment analysis (analyze sentiment toward specific aspects)
+- Develop domain-specific models (product reviews, social media, customer support)
+
+### 🔧 Algorithm Improvements
+- Implement smart text preprocessing (normalize punctuation, detect sarcasm)
+- Add confidence scores and uncertainty flags to all classifications
+- Improve negation scope detection for complex linguistic patterns
+
+### 📊 User Experience
+- Display confidence levels for each prediction
+- Explain reasoning behind sentiment classifications
+- Add user feedback mechanism to improve model accuracy over time
+- Show which words contributed most to the sentiment score
+
+### 🧪 Testing & Validation
+- Comprehensive A/B testing for different preprocessing approaches
+- Measure accuracy, precision, recall, and F1-score against human-annotated ground truth
+- Track performance on edge cases over time
+
+**For detailed information about current limitations that these improvements aim to address, see [EDGE_CASES.md](./EDGE_CASES.md).**
+

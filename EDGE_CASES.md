@@ -187,12 +187,11 @@ This document catalogs edge cases and limitations discovered during testing of t
 - Measure accuracy, precision, recall, F1-score
 - Track edge case performance over time
 
-## Future Work
+---
 
-- Implement A/B testing for different preprocessing approaches
-- Add support for multilingual sentiment analysis
-- Develop domain-specific models (product reviews, social media, etc.)
-- Integrate with larger NLP pipelines for better context understanding
+## See Also
+
+**Roadmap for Improvements**: See [Future Improvements](./README.md#future-improvements) section in README.md for planned enhancements to address these edge cases and limitations.
 
 ---
 
