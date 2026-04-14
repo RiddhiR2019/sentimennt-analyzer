@@ -128,7 +128,12 @@ pytest
 
 ## Development
 
-- Frontend: React + Vite
-- Backend: FastAPI + Python
-- Sentiment analysis: Rule-based (easily replaceable with ML models)
+- **Frontend**: React 18 + Vite (build tool), CSS for styling
+- **Backend**: FastAPI + Python 3.8+, Uvicorn ASGI server
+- **Sentiment Analysis**: 
+  - NLTK (Natural Language Toolkit) - rule-based lemmatization with custom word lists
+  - VADER (Valence Aware Dictionary and sEntiment Reasoner) - lexicon-based with intensity modifiers
+  - Hybrid approach combining both methods
+- **Testing**: pytest for backend unit tests
+- **Deployment**: Ready for containerization (Docker-ready structure)
 
